@@ -30,6 +30,8 @@
 .main {
     text-align: center;
     margin: 5% 10%;
+    height: 100%;
+    font-size: 125%;
 }
 
 h1, h2 {
@@ -76,4 +78,14 @@ i {
 
 .list {
     text-align: left;
+    font-family: "Exo 2", serif;
+}
+
+a{
+    transition: all 0.4s;
+}
+
+
+a:hover{
+    font-size: 110%;
 }
