@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    
+} */
+
+.logo {
+    
+    display: block;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.main {
+    background-color: #21c97a;
+    font-family: "Shadows Into Light", serif;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+hr {
+    border-bottom: 4px solid #136c42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+p {
+    /* margin: -30px; */
+    font-family: "Exo 2", serif;
+    text-align: center;
+    margin-left: 0%;
+}
+
+.projects {
+    margin: 100px 100px;
+    align-self: center;
+    /* border: 1px solid black;
+    border-radius: 16px; */
+    padding-left: -100px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td{
+    font-family: "Exo 2", serif;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
