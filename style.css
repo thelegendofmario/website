@@ -6,6 +6,9 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    
+    background-color: #21c97a;
+    font-family: "Shadows Into Light", serif;
 }
 
 /* body {
@@ -25,9 +28,8 @@
 }
 
 .main {
-    background-color: #21c97a;
-    font-family: "Shadows Into Light", serif;
     text-align: center;
+    margin: 5% 10%;
 }
 
 h1, h2 {
@@ -62,8 +64,16 @@ table {
     border-collapse: collapse;
 }
 
-td{
+td {
     font-family: "Exo 2", serif;
     border: 1px solid black;
     padding: 10px 20px;
+}
+
+i {
+    font-family: "Exo 2", serif;
+}
+
+.list {
+    text-align: left;
 }
