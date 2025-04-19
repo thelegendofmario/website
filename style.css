@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     overflow-x: hidden;
@@ -28,14 +29,14 @@
 }
 
 .main {
-    text-align: center;
+    text-align: left;
     margin: 5% 10%;
     height: 100%;
     font-size: 125%;
 }
 
 h1, h2 {
-    text-align: center;
+    text-align: left;
 }
 
 hr {
@@ -45,16 +46,16 @@ hr {
     width: 100%;
 }
 
-p {
+p, li, ul {
     /* margin: -30px; */
-    font-family: "Exo 2", serif;
-    text-align: center;
+    font-family: "Exo", serif;
+    text-align: left;
     margin-left: 0%;
 }
 
 .projects {
-    margin: 100px 100px;
-    align-self: center;
+    margin-top: 40px;
+    align-self: left;
     /* border: 1px solid black;
     border-radius: 16px; */
     padding-left: -100px;
@@ -62,30 +63,24 @@ p {
     box-sizing: border-box;
 }
 
-table {
-    border-collapse: collapse;
-}
 
-td {
-    font-family: "Exo 2", serif;
-    border: 1px solid black;
-    padding: 10px 20px;
-}
 
 i {
-    font-family: "Exo 2", serif;
-}
-
-.list {
-    text-align: left;
-    font-family: "Exo 2", serif;
+    font-family: "Exo", serif;
 }
 
 a{
-    transition: all 0.4s;
+    font-family: "Exo";
+    transition: all 1s;
 }
 
 
 a:hover{
-    font-size: 110%;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+
+
+.back-button {
+    margin-top: 30px;
 }
